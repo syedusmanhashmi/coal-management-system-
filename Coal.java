@@ -1,6 +1,6 @@
 public class Coal {
     private String type;
-    private double quantity; // in tons
+    private double quantity; 
 
     public Coal(String type, double quantity) {
         this.type = type;
