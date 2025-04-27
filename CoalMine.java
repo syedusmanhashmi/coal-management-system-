@@ -1,6 +1,6 @@
 public class CoalMine extends Company {
-    private Coal coal; // Composition
-    private Employee[] employees; // Aggregation
+    private Coal coal; 
+    private Employee[] employees; 
 
     public CoalMine(String name, String location, Coal coal, Employee[] employees) {
         super(name, location);
