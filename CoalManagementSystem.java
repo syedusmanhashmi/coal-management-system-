@@ -9,8 +9,6 @@ public class CoalManagementSystem {
 
         CoalMine mine = new CoalMine("BlackRock Mines", "Jharkhand", coal, employees);
         mine.showMineDetails();
-
-        // Start transport threads
         CoalTransportThread t1 = new CoalTransportThread("Truck A");
         CoalTransportThread t2 = new CoalTransportThread("Truck B");
 
